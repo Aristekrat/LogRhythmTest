@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.grade-entry {
+  width: 36%;
+  margin: 1% 32% 0 32%;
+}
+
+.grade-entry input {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 2% 0;
+  height: 50px;
+  padding: 0.5%;
+}
+
+.grade-entry button {
+  background: linear-gradient(to bottom, #007dc3, #00649c);
+  border: 1px solid #00649c;
+  color: #fff;
+  padding: 3% 12%;
+}
+
+.error {
+  color: red;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.statistics-table, .grades-table {
+  width: 50%;
+  margin: 2% 25%;
+  padding: 0.5% 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.subtle-input {
+  width: 75%;
+  float: left;
+  margin-left: 5%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.failing, .failing .subtle-input {
+  background-color: pink;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
